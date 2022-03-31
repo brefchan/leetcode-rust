@@ -1,7 +1,4 @@
-mod maximize_the_confusion_of_an_exam;
-mod maximum_acerage_subarray;
-use maximize_the_confusion_of_an_exam::max_consecutive_answers;
-use maximum_acerage_subarray::find_max_average;
+mod self_dividing_numbers;
 fn main() {
-    println!("{}", find_max_average([0, 1, 1, 3, 3].to_vec(), 4));
+    self_dividing_numbers::self_dividing_numbers(66, 708);
 }
